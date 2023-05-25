@@ -20,4 +20,8 @@ $ env | grep -E "LIBVA|VDPAU"
 
 ```
 
+- check Wayland display
 
+```
+$ echo $WAYLAND_DISPLAY
+```
