@@ -1,1 +1,2 @@
 - Mesa-git in flatpak: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Mesa-git
+- Uboot debian http://ftp.us.debian.org/debian/pool/main/u/u-boot/
