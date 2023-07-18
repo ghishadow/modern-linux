@@ -1,6 +1,6 @@
 # Useful Commands 
 
-```
+``` shell
 $ journalctl -b 0 --grep "renderer for"
 
 ```
@@ -22,6 +22,12 @@ $ env | grep -E "LIBVA|VDPAU"
 
 - check Wayland display
 
-```
+``` shell
 $ echo $WAYLAND_DISPLAY
 ```
+
+- check system's current clock source
+``` shell
+$ cat /sys/devices/system/clocksource/clocksource0/current_clocksource
+```
+eg. tsc
